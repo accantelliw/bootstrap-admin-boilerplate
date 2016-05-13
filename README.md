@@ -23,7 +23,7 @@ Install *NPM*, *NodeJS*, *Bower* and *Grunt*.
 ``` 
 mkdir boostrap-admin-boilerplate 
 cd boostrap-admin-boilerplate 
-github clone http://github/accantelliw/bootstrap-admin-boilerplate 
+git clone http://github/accantelliw/bootstrap-admin-boilerplate 
 ```
 
 ```	npm install ```

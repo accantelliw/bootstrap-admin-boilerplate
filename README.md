@@ -21,14 +21,14 @@ Install *NPM*, *NodeJS*, *Bower* and *Grunt*.
 ### Installing
 
 ``` 
-	mkdir boostrap-admin-boilerplate 
-	cd boostrap-admin-boilerplate 
-	github clone http://github/accantelliw/bootstrap-admin-boilerplate 
-	
-	npm install
-	
-	bower install
+mkdir boostrap-admin-boilerplate 
+cd boostrap-admin-boilerplate 
+github clone http://github/accantelliw/bootstrap-admin-boilerplate 
 ```
+
+```	npm install ```
+
+```	bower install ```
 
 ### Build
 
@@ -53,5 +53,5 @@ Modify the following files:
 
 
 ## 3. Credits
-Check-out this great [Youtube tutorial](http://www.youtube.com) by [Kingsley Ijomah](https://github.com/kingsley-ijomah)
+Check-out this great [Youtube tutorial](https://www.youtube.com/playlist?list=PLid95FTT3ehi1gtICaGsLfFXGAbVhNg84) by [Kingsley Ijomah](https://github.com/kingsley-ijomah)
 

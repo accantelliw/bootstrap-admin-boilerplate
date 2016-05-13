@@ -1,0 +1,108 @@
+@colorDefault: #ff5722;
+@primaryBkgColor1: #1e88e5;
+@primaryBkgColor2: #2196f3;
+@infoBkgColor1: #00695c;
+@infoBkgColor2: #00796b;
+@radius: 0px;
+ 
+/** Bootstrap override */
+
+.panel-primary {
+	border-color: #eee;
+}
+
+.panel-heading {
+    border-radius: @radius;
+    border-radius: @radius;
+    padding: 10px 15px;
+    background-color: #2f4050;
+}
+
+.panel-title {
+    font-weight: normal;
+    color: #fff;
+}
+
+.dropdown-menu {
+	border-radius: @radius;
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: @colorDefault;
+	background-color: @colorDefault;
+}
+
+.navbar-default .icon-bar {
+	border: 1px solid #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: @colorDefault;
+}
+
+.navbar-default .navbar-toggle:focus {
+	background-color: @colorDefault;
+}
+
+.btn {
+    border-radius: @radius;
+}
+
+.btn-primary {
+	background-color: @primaryBkgColor1;
+	border: 1px solid @primaryBkgColor1;
+}
+
+.btn-primary:hover {
+	background-color: @primaryBkgColor2;
+	border: 1px solid @primaryBkgColor2;
+}
+
+.btn-primary:focus {
+	background-color: @primaryBkgColor2;
+	border: 1px solid @primaryBkgColor2;
+}
+
+.btn-info {
+	background-color: @infoBkgColor1;
+	border: 1px solid @infoBkgColor1;
+}
+
+.btn-info:hover {
+	background-color: @infoBkgColor2;
+	border: 1px solid @infoBkgColor2;
+}
+
+.btn-info:focus {
+	background-color: @infoBkgColor2;
+	border: 1px solid @infoBkgColor2;
+}
+
+.form-control {
+    border-radius: @radius;
+    font-size: 14px;
+    padding: 3px 5px;
+}
+
+.form-wrapper {
+	
+}
+
+.form-horizontal .control-label{
+	text-align:left;
+}
+
+.list-group {
+	border-radius: @radius;
+}
+
+.list-group-item:first-child{
+	border-top-left-radius: @radius;
+    border-top-right-radius: @radius;
+}
+
+

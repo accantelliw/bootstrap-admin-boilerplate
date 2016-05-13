@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>admin template</title>
+
+    <!-- layout -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/roboto-fontface/css/roboto-fontface.css"> 
+    <link rel="stylesheet" href="css/style.min.css">
+    
+  </head>
+   
+   <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4" style="top:30px;">
+                <div class="login-panel panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Welcome, please log in.</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form" class="form-horizontal">
+                            <fieldset>
+                                <div class="form-group clearfix">
+                                  <label class="col-sm-3 control-label" for="env">environment</label>
+                                  <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="env" value="" >
+                                  </div>
+                                </div>
+                                <div class="form-group clearfix">
+                                  <label class="col-sm-3 control-label" for="user">user</label>
+                                  <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="user" value="admin" autofocus autocomplete="off">
+                                  </div>
+                                </div>
+                                <div class="form-group clearfix">
+                                  <label class="col-sm-3 control-label" for="password">password</label>
+                                  <div class="col-sm-9">
+                                    <input type="password" class="form-control" placeholder="Password" name="password" id="password" >
+                                  </div>
+                                </div>
+                                <button type="submit" id="loginButton" class="btn btn-md btn-primary btn-block" >Login</button>
+                            </fieldset>
+                        </form>
+                        <span class="error label label-danger">This field is mandatory</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+      
+  <!-- basic libs -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+   </body>
+</html>

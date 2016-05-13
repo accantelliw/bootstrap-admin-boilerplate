@@ -5,7 +5,7 @@ Starter-kit for a boostrap based admin console.
 ## 1. Getting Started
 
 Template for a fluid responsive admin console based on Bootstrap CSS library.
-Templates provide 4 sample pages:
+This project include 4 sample pages:
 
 1. login
 2. search
@@ -33,10 +33,6 @@ github clone http://github/accantelliw/bootstrap-admin-boilerplate
 ### Build
 
 ``` grunt build ```
-
-### Dynamic Build
-
-``` grunt watch ```
 
 ### Run
 
